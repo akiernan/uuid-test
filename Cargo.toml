@@ -1,0 +1,10 @@
+[package]
+name = "uuid-test"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/akiernan/uuid-test.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = { git = "https://github.com/uuid-rs/uuid.git", version = "1.2.1", features = [ "v4" ] }
