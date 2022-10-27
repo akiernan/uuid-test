@@ -28,7 +28,7 @@ checksum = "fc7fcc620a3bff7cdd7a365be3376c97191aeaccc2a603e600951e452615bf89"
 [[package]]
 name = "uuid"
 version = "1.2.1"
-source = "git+https://github.com/uuid-rs/uuid.git#f5a29cf3d11f8a6a431e0aae3e3a6f9530498a4e"
+source = "git+https://github.com/uuid-rs/uuid.git?rev=f5a29cf3d11f8a6a431e0aae3e3a6f9530498a4e#f5a29cf3d11f8a6a431e0aae3e3a6f9530498a4e"
 dependencies = [
  "getrandom",
 ]

@@ -7,4 +7,4 @@ repository = "https://github.com/akiernan/uuid-test.git"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-uuid = { git = "https://github.com/uuid-rs/uuid.git", version = "1.2.1", features = [ "v4" ] }
+uuid = { git = "https://github.com/uuid-rs/uuid.git", rev = "f5a29cf3d11f8a6a431e0aae3e3a6f9530498a4e", features = [ "v4" ] }
